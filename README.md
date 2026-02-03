@@ -9,7 +9,20 @@ The README Generator is a specialized tool that automates the creation of high-e
 Many developers create amazing projects but struggle to explain them in a way that resonates with recruiters or other engineers. Often, documentation is an afterthought or feels "generic," technical stack details are missed or poorly explained, and students find it difficult to translate their projects into impact-driven resume bullet points. The goal of the README Generator is to automate the creation of high-quality, recruiter-friendly documentation that accurately reflects a developer's technical prowess.
 
 ## Domain Concept Explanation
-The README Generator operates on a "Technical Storyteller" logic, which follows a clear narrative flow: **Problem → Domain Concept → Solution → Technical System → Professional Impact**. This approach ensures that the generated documentation is not only technically accurate but also engaging and easy to understand.
+The README Generator operates on a "Technical Storyteller" logic, which follows a clear narrative flow: 
+```
+     Problem
+        ↓
+  Domain Concept
+        ↓
+     Solution
+        ↓
+ Technical System
+        ↓
+Professional Impact
+```
+
+This approach ensures that the generated documentation is not only technically accurate but also engaging and easy to understand.
 
 ## Technical Architecture
 The README Generator is built using a combination of Python, Streamlit, and the Groq Llama-3.3-70B model. The technical architecture is designed to be scalable, efficient, and easy to maintain. The system uses Streamlit caching to prevent redundant API calls, saving tokens and providing instant results for repeated requests.
