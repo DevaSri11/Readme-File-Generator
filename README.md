@@ -1,5 +1,5 @@
 # README Generator | Professional GitHub Documentation Suite
-## Project Title & Tagline
+## Project Title
 The README Generator is a cutting-edge tool designed to help developers and students create high-quality, technically accurate, and narrative-driven GitHub documentation in seconds. This tool uses advanced AI to analyze project descriptions or existing repositories to produce professional READMEs and resume impact statements.
 
 ## Project Overview
