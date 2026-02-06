@@ -34,6 +34,19 @@ The README Generator consists of several key components, including:
 * **Resume Project Section**: Generates 2-3 impact-driven bullet points and a technology-rich header for immediate inclusion in a professional resume.
 * **Intelligent Caching**: Uses Streamlit caching to prevent redundant API calls.
 
+The key components of the README Generator include the `app.py` file, which contains the main application logic, and the `fetch_github_repo` function, which is used to fetch the repository structure, languages, and existing README.
+```python
+@st.cache_data(show_spinner=False)
+def fetch_github_repo(repo_url):
+    """Fetch repository structure, languages, and existing README."""
+    try:
+        # Basic parsing of GitHub URL
+        parts = repo_url.split("/")
+        # ...
+```
+The `fetch_github_repo` function is used to fetch the repository structure, languages, and existing README from the GitHub API. This function is cached using Streamlit's caching mechanism to prevent redundant API calls and improve performance.
+
+
 ## System Logic / Analytics Insights
 The README Generator uses a technical storyteller logic to create meaningful stories around code. The system analyzes the project description and repository to identify key concepts, technical implementation details, and problem statements. The generated documentation provides insights into the project's technical architecture, highlighting the strengths and weaknesses of the implementation.
 
